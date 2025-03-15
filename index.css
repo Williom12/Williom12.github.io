@@ -6,23 +6,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: black;
 }
 
 button {
     border: none;
-    background: none;
+    background-color: white;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90vw;
+    height: 90vh;
 }
 
 button img {
-    width: 250px;
+    width: 80%;
     height: auto;
 }
 
-button:hover img {
+button:hover {
     opacity: 0.8;
 }
